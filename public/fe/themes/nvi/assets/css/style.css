@@ -1,0 +1,170 @@
+/*================================================================================
+	Item Name: Stack - Responsive Admin Theme
+	Version: 3.1
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.custom-widget p {
+    font-size: 13px;
+}
+.navbar-dark
+{
+
+    background: rgb(77,33,110);
+    background: linear-gradient(180deg, rgba(77,33,110,1) 0%, rgba(1,0,6,1) 100%);
+
+}
+.dark-layout {
+	background-color: #3d4554;
+}
+.main-menu.menu-dark .navigation,
+.main-menu .main-menu-content{
+    background: rgb(1,0,6);
+    background: linear-gradient(93deg, rgba(1,0,6,1) 0%, rgba(77,33,110,1) 100%);
+	
+}
+
+.custom-widget:hover {
+	/* box-shadow: 0px 0px 10px 0px #008385; */
+	cursor: pointer;
+}
+.card-dark {
+    background: #404e67;
+    color: #fff;
+}
+.bg-dark-card,
+.card-dark .card-header{
+    background: #404e67;
+    color: #fff;
+}
+.custom-drk-btn{
+	border-color: #8d807b;
+	background: rgb(77,33,110);
+	background: linear-gradient(90deg, rgba(77,33,110,1) 0%, rgba(1,0,6,1) 100%);
+	color: #fff;
+}
+.custom-drk-btn span{
+	width: 100%;
+    display: block;
+    padding-right: 10%;
+}
+.custom-drk-btn span.fa-adn {
+    border: 1px solid #8d807b;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+    line-height: normal;
+}
+.main-menu.menu-dark .navigation > li {
+    padding: 0;
+    border-left: 0px solid transparent;
+	margin-top: 0.5em;
+	background: rgb(77,33,110);
+    background: linear-gradient(90deg, rgba(77,33,110,1) 0%, rgba(1,0,6,1) 100%);
+    text-align: center;
+    border: 1px solid #8d807b;
+    max-width: 90%;
+    margin: 0.5em auto 0 auto;
+}
+
+body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation > li > a > i{
+	float: left;
+}
+
+.table thead th span {
+    background: #948b54;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.table-borderless thead th {
+    border: none;
+}
+.table-bordered thead th{
+    border-color: #414f68 !important;
+}
+.table thead th {
+    /* border: 0px; */
+    border-bottom: 0px solid #e3ebf3;
+    border-top: 0px solid #e3ebf3;
+}
+
+.table thead th{
+    padding: 0 5px;
+}
+.table-ctm-brder th:first-child {
+    border-left: 0;
+}
+.table-ctm-brder tbody tr th,
+    .table-ctm-brder tbody tr td {
+    border-top: 0;
+}
+.table-ctm-brder tbody tr:last-child th, 
+.table-ctm-brder tbody tr:last-child td {
+    border-bottom: 0 ;
+}
+.table-ctm-brder th:last-child{ 
+    border-right: 0;
+}
+h5.ttle {
+    background: #313338;
+    text-align: center;
+    padding: 10px;
+    color: #bfaf41;
+    font-weight: bold;
+}
+.table-ctm-brder{
+    overflow: hidden;
+}
+.itm-bx {
+    background-color: #456794;
+    border: 2px solid #415d82;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+}
+.itms-bx{
+    background-color: #8063a5;
+    border: 2px solid #5c4c70;
+    padding: 5px;
+}
+.itms-bx-buy{
+    background-color: #c24f4c;
+    border: 2px solid #913333;
+    padding: 5px;
+
+}
+
+.btns-cmpre h6 {
+    background: #948b54;
+    border: 2px solid #454336;
+}
+
+.btns-cmpre li {
+    width: 12%;
+}
+.btns-cmpre .lt-bl h6 {
+    background: #4daac9;
+    border-color: #2e828c;
+}
+ul.btns-cmpre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itm-bx{
+    background-color: #456794;
+    border: 2px solid #415d82;
+}
