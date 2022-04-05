@@ -2350,39 +2350,6 @@
             "time": "2021-04-04T19:34:46+00:00"
         },
         {
-            "name": "properos/accounting",
-            "version": "dev-v1.0-beta",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:properos/properos-accounting.git",
-                "reference": "7c252c7e75c8d7c31975e6c11f0ddc4a8a292bc7"
-            },
-            "require": {
-                "authorizenet/authorizenet": "^1.9"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Properos\\Accounting\\AccountingServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Properos\\Accounting\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Properos Team",
-                    "email": "developer@properos.com"
-                }
-            ],
-            "description": "A package to manage general accounting features",
-            "time": "2021-04-22T17:11:53+00:00"
-        },
-        {
             "name": "psr/cache",
             "version": "1.0.1",
             "source": {
