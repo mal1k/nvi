@@ -8,10 +8,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/IlCallo/laravel-permission"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:properos/properos-accounting.git"
         }
     ],
     "require": {
