@@ -18,7 +18,7 @@
     <script src="/be/vendor/loadingoverlay.min.js"></script>
     <script src="/be/app-assets/vendors/js/forms/select/select2.full.min.js" type="text/javascript"></script>
     <script src="/be/app-assets/vendors/js/extensions/toastr.min.js" type="text/javascript"></script>
-    <script src="//{{ Request::getHost() }}:{{env('LARAVEL_ECHO_PORT')}}/socket.io/socket.io.js"></script>
+    <!-- <script src="//{{ Request::getHost() }}:{{env('LARAVEL_ECHO_PORT')}}/socket.io/socket.io.js"></script> -->
     <script src="{!! asset('be/js/core.js') !!}" type="text/javascript"></script>
     <script src="{{ asset('fe/js/modules/ui.js') }}"></script>
     @yield('local_script')

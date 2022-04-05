@@ -27,7 +27,7 @@
 	<!-- Specific Page Vendor Scripts -->
     @yield('specific_vendor_footer')
 	<!-- END PAGE VENDOR JS-->
-	<script src="//{{ Request::getHost() }}:{{env('LARAVEL_ECHO_PORT')}}/socket.io/socket.io.js"></script>
+	<!-- <script src="//{{ Request::getHost() }}:{{env('LARAVEL_ECHO_PORT')}}/socket.io/socket.io.js"></script> -->
 	<script src="{!! asset('be/js/core.js') !!}" type="text/javascript"></script>
 	<!-- END STACK JS-->
 	<script src="{{ asset('be/js/modules/ui.js') }}"></script>
